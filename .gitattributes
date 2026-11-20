@@ -1,0 +1,13 @@
+# Text file normalization
+public/**/*.html linguist-vendored
+dist/* linguist-vendored
+*.map linguist-generated
+* text=auto eol=lf
+*.svg text
+
+public/* linguist-vendored
+*.woff binary
+**/*.go linguist-detectable
+*.min.css linguist-generated
+* text=auto
+*.go linguist-detectable
